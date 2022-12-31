@@ -1,2 +1,2 @@
-"Challenge Oracle One" 
+Challenge Oracle ONE 
 
