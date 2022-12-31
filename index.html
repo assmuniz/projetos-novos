@@ -1,0 +1,46 @@
+<!DOC TYPE html>
+<html lang="pt-br">
+    <head>
+    	  <meta charset="utf-8">
+          <link rel="stylesheet" href="reset.css">
+          <link rel="stylesheet" href="index.css">
+          <title>Challenge Alura</title>
+      </head>
+      <body>
+        <div class="caixa-principal">
+          <div class="logo">
+            <img class="logoImg" src="Vector.jpg">
+          </div>
+        <div class="lado-esq"> 
+          <input class="text-input" id="input-texto" type="text" placeholder="Digite seu texto">
+          <div class="bolinha">
+            <ul>
+              <li><img class="exclamacao" src="bi_exclamation-circle-fill.jpg"></li>
+              <li>Apenas letras minúsculas e sem acento</li>
+            </ul>
+          </div>
+        </div>
+        <div class="lado-dir">
+          <img src="meninoLupa.jpg" id="imgLupa">
+          <h1 id="texto">Nenhuma mensagem encontrada</h1>
+          <textarea id="texto2" name="name" rows="8" cols="80">Digite um texto que você deseja criptografar ou descriptografar</textarea>
+          <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+        </div>
+        <div class="botoesLadoEsq">
+          <button type="button" id="btn-encriptar" onclick="encriptar()">Criptografar</button>
+          <button type="button" id="btn-desencriptar" onclick="desencriptar()">Descriptografar</button>
+        </div>  
+      </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <div class="icones">
+        <a href="https://www.linkedin.com/in/antonio-muniz-tecnologia"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://github.com/assmuniz"><ion-icon name="logo-github"></ion-icon></a>
+        <h3>Desenvolvido por Antonio Muniz</h3>
+    </div>    
+    </body>
+    <footer>
+      
+    </footer>
+</html>    
